@@ -16,19 +16,7 @@ function res = grs2rgb(img, map)
 %	open 'image.tif';	
 %	res = grs2rgb(image);
 %
-%	Example 2:
-%	cmap = colormap(summer);
-% 	res = grs2rgb('image.tif',cmap);
-%
-% 	See also COLORMAP, HOT
-%
-%	Written by 
-%	Valeriy R. Korostyshevskiy, PhD
-%	Georgetown University Medical Center
-%	Washington, D.C.
-%	December 2006
-%
-% 	vrk@georgetown.edu
+
 
 % Check the arguments
 if nargin<1
